@@ -17,7 +17,7 @@ The system has three main components:
     - Executes trades via Binance API
     - Manages leverage, borrowing, and position sizing
     - Keeps records of all trading activity
-   2. Coin Class (in components.py)
+2. Coin Class (in components.py)
    - Represents individual trading pairs (e.g., BTCUSDT, ETHUSDT)
    - Downloads and updates OHLC (candlestick) data
    - Manages multiple trading strategies for each pair
@@ -124,3 +124,4 @@ The system provides:
 ⚠️ **This is a margin trading system with leverage** - it can borrow assets and amplify both gains and losses. Use with caution and understand the risks.
 
 The system is designed for automated operation (runs on Raspberry Pi hourly via cron) but can be run manually for testing and analysis.
+
